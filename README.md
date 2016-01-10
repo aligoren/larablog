@@ -32,11 +32,23 @@ Hepsi bittikten sonra da
 
 `php artisan serve` komutunu vererek localde test edebilirsiniz. ( screenshots klasöründe farklı görseller var mı bilmiyorum )
 
+Giriş sayfası `http://siteniz/hesap/gir` şeklindedir. Yani `http://siteniz/admin` yazmayın. Hata sayfası gelir.
+
 **Özellikler**
 
 Resim yüklenebiliyor. Kategori (Etiket) özelliği var.
 
 Markdown destekli. Yazı eklerken markdown editörü aktif.
+
+Ekstra olarak highlight.js kullandım. Eğer kod eklemek isterseniz falan diye. Kodlar böyle ekleniyor. Onda renklendirme olarak zenburn var. **assets** klasöründeki styles klasöründe diğer renkler de var. Onlara da bakabilirsiniz.
+
+Kodlarda satır sayısını göstermektedir. Onu css klasörü altındaki code.css dosyası ile daha optimize hale getirebilirsiniz. Zira ben pek iyi çalışıyormuş gibi göremedim. Bazı noktalarda hataları mevcut. Nadiren denk gelseniz de mevcut. Kodları eklerken şöyle eklersiniz:
+
+```html
+<pre><code class="php">
+    echo 'Kod Testi';
+</code></pre>
+```
 
 ![screenshots/ss1.png](screenshots/ss1.png)
 
